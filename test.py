@@ -33,7 +33,7 @@ if a.set_element_id('session_key'):
 
 if a.set_element_id('session_password'):
     print("[*] Got password field.")
-    pw = input("Enter you LinkedIn password: ")
+    pw = input("Enter your LinkedIn password: ")
     a.send_keys(pw)
 
 if not a.login():
